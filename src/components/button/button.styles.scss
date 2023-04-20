@@ -23,12 +23,22 @@
   }
 
   &.google-sign-in {
-    background-color: #4285f4;
+    background-color: #18ca35;
     color: white;
 
     &:hover {
-      background-color: #357ae8;
+      background-color: #149e2b;
       border: none;
+    }
+  }
+
+  &.register {
+    background-color: #1b92b6;
+    color: white;
+
+    &:hover {
+      background-color: #0f566b;
+      border: 1;
     }
   }
 
