@@ -31,9 +31,9 @@ $main-color: black;
     &:focus ~ .form-input-label {
       @include shrinkLabel();
     }
-    &:hover ~ .form-input-label {
-      @include shrinkLabel();
-    }
+    // &:hover ~ .form-input-label {
+    //   @include shrinkLabel();
+    // }
   }
 
   input[type="password"] {
