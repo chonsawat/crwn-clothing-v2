@@ -14,9 +14,9 @@ import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component
 import "./navigation.styles.scss";
 
 const Navigation = () => {
-  const { currentUser, setCurrentUser } = useContext(UserContext);
+  const { currentUser } = useContext(UserContext);
   const { isCartOpen } = useContext(CardContext);
-  console.log("currentUser >> ", currentUser);
+  // console.log("currentUser >> ", currentUser);
 
   const signOutHandler = async () => {
     await signOutUser();
