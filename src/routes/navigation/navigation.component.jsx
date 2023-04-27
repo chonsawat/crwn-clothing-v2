@@ -32,7 +32,7 @@ const Navigation = () => {
           <NavLinks to="/shop">SHOP</NavLinks>
 
           {currentUser ? (
-            <NavLinks as span onClick={signOutUser}>
+            <NavLinks as="span" onClick={signOutUser}>
               SIGN OUT
             </NavLinks>
           ) : (
