@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const BaseButton = styled.button`
   min-width: 165px;
@@ -7,11 +7,11 @@ export const BaseButton = styled.button`
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
-  font-size: 12px;
+  font-size: 15px;
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
+  font-family: 'Open Sans Condensed';
   font-weight: bolder;
   border: none;
   cursor: pointer;
@@ -26,11 +26,11 @@ export const BaseButton = styled.button`
 `;
 
 export const GoogleSignInButton = styled(BaseButton)`
-  background-color: #18ca35;
+  background-color: #4285f4;
   color: white;
 
   &:hover {
-    background-color: #149e2b;
+    background-color: #357ae8;
     border: none;
   }
 `;
@@ -44,15 +44,5 @@ export const InvertedButton = styled(BaseButton)`
     background-color: black;
     color: white;
     border: none;
-  }
-`;
-
-export const RegisterButton = styled(BaseButton)`
-  background-color: #1b92b6;
-  color: white;
-
-  &:hover {
-    background-color: #0f566b;
-    border: 1;
   }
 `;
